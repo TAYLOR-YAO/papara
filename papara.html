@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>papara</title>
+    </head>
+    <body>
+        <!-- ------------------------------------ First Navbar ------------------------------------- -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img class="logo" src="assets/images/papara-logo.jpg" alt="logo"></a>
+            <a href="#" class="badge badge-light paparaName"> <span class="papara">p</span>apara</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Our products</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="#">Contacts</a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link connection" href="#"><img class="social-medias" src="assets/images/facebook-logo.png" alt="Facebook page"></a>
+                <a class="nav-item nav-link connection" href="#"><img class="social-medias" src="assets/images/twitter-logo.png" alt="Twitter page"></a>
+                <a class="nav-item nav-link connection" href="#"><img class="social-medias" src="assets/images/instagram-logo.png" alt="Instagram page"></a>
+                </div>
+            </div> 
+            <button type="button" class="btn btn-outline-dark  downloads">Downloads App</button>
+        </nav>
+        <div class="container-fluid">
+        <!-- --------------------------------- Second Navbar -------------------------------- -->
+            <div class="row navbar2">
+                <div class="col-3">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fashion 
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Autumn</a>
+                            <a class="dropdown-item" href="#">Spring</a>
+                            <a class="dropdown-item" href="#">Summer</a>
+                            <a class="dropdown-item" href="#">Winter</a>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col-6">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control searchInput" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-secondary bg-dark text-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+                <div class="col-3">
+                    <button type="button" class="btn btn-outline-secondary" id="payement">Buy Now</button>
+                    
+                    <img class="checkout" src="assets/images/payement.jpeg" alt="Checkout ">
+                    <div class="quantity"></div>
+                    <img class="shopping-cart" src="assets/images/shopping-care.png" alt="Shopping cart">
+                    <div class=" priceTitle"> Amount: <span class="price"></span></div>
+
+                </div>
+            </div>
+            <!-- -------------------------------------- Items Display --------------------------------------------- -->
+            
+            <div class="main-page">
+
+                <div class="row shoppingItems">
+                    <div class="col-2">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a class="" href="#">T-shirts</a> </li>
+                            <li class="list-group-item"><a href="#">Long sleeves</a></li>
+                            <li class="list-group-item"><a href="#">Jackets</a></li>
+                            <li class="list-group-item"><a href="#">sleeveless</a></li>
+                            <li class="list-group-item"><a href="#">Other</a></li>
+                        </ul>
+                    <!-- ---------------- Left SidBar -------------- -->
+                    </div>
+                    <!-- ------------ Items ------------------- -->
+                    <div class="col-10 itemHolder">
+
+                        <div class="card-group">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt8.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt11.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara winter Long sleeve</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 45$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light long-sleeves" value="45" >Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt7.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button> 
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt12.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25"  >Add to cart</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <!-- ----------------------------------------------------------------------- -->
+
+                        <div class="card-group">
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt9.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 45$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt2.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt13.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button> 
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt15.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button>
+                                </div>
+                            </div>
+
+                        </div> 
+
+                        <!-- ----------------------------------------------------------------------- -->
+                        <div class="card-group">
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 45$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt4.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt14.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button> 
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top items" src="assets/images/items/shirt10.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Parara summer t-shirt</p>
+                                    <div class="itemInfos">
+                                        <h6>Price: 25$</h6>
+                                    </div>
+                                    <button class="bg-dark text-light t-shirt" value="25">Add to cart</button>
+                                </div>
+                            </div>
+    
+                        </div> 
+                        
+                    <!-- -------------------------------------------------------------------------------------- -->
+
+                    <div class="card-group">
+
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top items" src="assets/images/items/shirt19.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Parara summer t-shirt</p>
+                                <div class="itemInfos">
+                                    <h6>Price: 45$</h6>
+                                </div>
+                                <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top items" src="assets/images/items/shirt16.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Parara summer t-shirt</p>
+                                <div class="itemInfos">
+                                    <h6>Price: 25$</h6>
+                                </div>
+                                <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top items" src="assets/images/items/shirt17.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Parara summer t-shirt</p>
+                                <div class="itemInfos">
+                                    <h6>Price: 25$</h6>
+                                </div>
+                                <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button> 
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top items" src="assets/images/items/shirt18.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Parara summer t-shirt</p>
+                                <div class="itemInfos">
+                                    <h6>Price: 25$</h6>
+                                </div>
+                                <button class="bg-dark text-light t-shirt" value="25" >Add to cart</button>
+                            </div>
+                        </div>
+
+                    </div> 
+
+                    <!-- -------------------------------------------------------------------------------------- -->
+                    </div>
+                    <!-- ----------------- Right SidBar ----------------------- -->
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- ------------------------------------------ Footer --------------------------------------- -->
+        <div class="card-footer text-light bg-secondary border-top-3 border-dark pl-4 text-center footer" >
+            <h6>&copy, 2017 Rapara Generation</h6>
+            <div class="footerInfoDiv">
+                <h6 class="footerInfos">About Us </h6>
+                <h6 class="footerInfos">Our Valuesb </h6>
+                <h6 class="footerInfos">Term of use</h6>
+                <h6 class="footerInfos">Our Partners</h6>
+            </div>
+        </div>
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="assets/javascript/papara.js"></script>
+    </body>
+</html>
