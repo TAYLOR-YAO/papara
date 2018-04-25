@@ -117,6 +117,7 @@ height: 300px;
 .priceTitle{
     position: absolute;
     left: 250px;
+    bottom: 3px;
     font-size: 10px;
 }
 .price{
@@ -130,4 +131,9 @@ height: 300px;
 
 #pay{
     height: 600px;
+}
+.carousel{
+    
+    width: 500px;
+    height: 400px;
 }
